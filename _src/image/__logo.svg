@@ -1,0 +1,7 @@
+<svg class="logo_container" width="50" height="50" version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+    <rect class="logo logo_parts_1-1" x="0" y="0" width="50" height="10"/>
+    <rect class="logo logo_parts_1-2" x="0" y="0" width="10" height="50"/>
+    <rect class="logo logo_parts_2-1" x="15" y="15" width="35" height="10"/>
+    <rect class="logo logo_parts_2-2" x="15" y="15" width="10" height="35"/>
+    <rect class="logo logo_parts_2-3" x="15" y="40" width="35" height="10"/>
+</svg>

@@ -1,0 +1,168 @@
+form-question {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+form-question label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1rem;
+
+    user-select: none;
+}
+
+form-question label > span {
+    height: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form-question label > span:not(:first-child) {
+    margin-left: 0.5rem;
+}
+
+form-question label:hover {
+    cursor: pointer;
+
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #ccc;
+    background: var(--nomal-tertiary);
+    transition: background-color 0.2s ease-in-out;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+    user-select: none;
+}
+
+input[type="checkbox"]:hover,
+input[type="radio"]:hover,
+input[type="checkbox"] + label:hover,
+input[type="radio"] + label:hover {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    border-radius: 0.25rem;
+}
+
+input[type="radio"] {
+    border-radius: 50%;
+}
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+    background-color: var(--accent-primary);
+    display: inline-block;
+    color: var(--text);
+}
+
+input[type="checkbox"]:disabled,
+input[type="radio"]:disabled {
+    background-color: var(--nomal-secondary);
+}
+
+
+
+input[type="button"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: var(--accent-primary);
+    color: var(--text);
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+input[type="button"]:disabled {
+    background-color: var(--nomal-secondary);
+    cursor: not-allowed;
+}
+
+
+input[type="text"],
+textarea {
+    width: 100%;
+
+
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    background-color: var(--nomal-tertiary);
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: 700;
+
+    transition-property: background-color, border-color;
+    transition: 0.2s ease-in-out;
+}
+
+textarea {
+    
+    resize: none;
+    height: 100px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: var(--accent-primary);
+    outline: none;
+}
+
+/*input[required],
+textarea[required] {
+    border-color: var(--accent-tertiary);
+}*/
+
+.required {
+    border-color: var(--accent-tertiary) !important;
+}
+
+form div[type="gridRadio"] {
+    display: table;
+
+    width: 100%;
+}
+
+form div[type="gridRadio"] > * {
+    display: table-row;
+
+}
+
+form div[type="gridRadio"] > * > * {
+    display: table-cell;
+
+}
+
+form div[type="gridRadio"] > form-question {
+}
+
+form div[type="gridRadio"] > .gRth {
+}
+
+text-list > div[textList="input"] {
+    display: flex;
+}
+
+form-next {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

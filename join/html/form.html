@@ -1,0 +1,234 @@
+<div>
+    <h3>
+        TRENDcreate 参加申請
+    </h3>
+    <p>
+        以下のフォームに必要事項を入力してください。
+    </p>
+</div>
+
+<template section="default">
+    <span>
+        <h3>
+            1, 基本情報の入力
+        </h3>
+        <p>
+            TRENDcreateへの参加に必要な情報を入力してください。
+        </p>
+    </span>
+    <form-question>
+        <input type="text" id="name" name="name" placeholder="活動名" required>
+    </form-question>
+    <form-question>
+        <input type="text" id="twitterId" name="twitterId" placeholder="TwitterのID(@なし)" required>
+    </form-question>
+    <form-question>
+        <input type="text" id="email" name="email" placeholder="メールアドレス" required>
+    </form-question>
+    <form-question>
+        <input type="text" id="githubId" name="githubId" placeholder="GithubのID" required>
+    </form-question>
+    <form-question>
+        <textarea name="activityTime" placeholder="活動可能時間" required></textarea>
+    </form-question>
+
+    <form-next sectionTo="question">
+        <input type="button" value="次に進む">
+    </form-next>
+</template>
+
+<template section="question">
+    <span>
+        <h3>
+            設問
+        </h3>
+        <p>
+            ここからは、あなたのインターネットの基礎知識、TRENDcreateに参加したいという意思などを確認するために、
+            いくつかの質問に答えていただきます。
+        </p>
+        <p>
+            次以降のページで、希望の部署ごとの質問に答えていただくため、こちらのセクションであなたの希望する部署を選択してください。
+            新しく部や子グループの作成を申請することもできますが、審査の難易度は上がります。
+        </p>
+        <span style="font-size: 0.8rem; color: #999;">
+            <p>
+                ※子グループとは、例えばTRENDcreate developsのように、半独立のような形であり、部よりも大きい分類方法です。
+                専用のdiscordサーバーが作られ、子グループごとに追加の規約などがあることがあります。
+            </p>
+            <p>
+                ※部署、子グループについての詳細は、次以降のページで入力します。ここでは、名称だけ入力してください
+            </p>
+        </span>
+    </span>
+
+    <span>
+        <form-question style="display: flex;">
+            <label style="margin-right: 1rem;">
+                <span>
+                    <input type="radio" id="kouhou" name="department" value="kouhou">
+                </span>
+                <span>広報部</span>
+            </label>
+
+            <label style="margin-right: 1rem;">
+                <span>
+                    <input type="radio" id="develops" name="department" value="develops">
+                </span>
+                <span>TRENDcreate Develops</span>
+            </label>
+
+            <label style="margin-right: 1rem;">
+                <span>
+                    <input type="radio" id="new" name="department" value="new">
+                </span>
+                <span>新しく作る</span>
+            </label>
+        </form-question>
+
+        <form-next sectionTo="$department">
+            <input type="button" value="次に進む">
+        </form-next>
+    </span>
+</template>
+
+<template section="kouhou">
+    <h3>
+        設問 広報部
+    </h3>
+
+    <span>
+        <div>
+
+            <span>
+                広報としてSNSを活用するとき、投稿内容にはどのような要素が必要だと思いますか？
+                以下の各要素にあなたの考え通りに重要度を選択してください。
+            </span>
+
+            <div type="gridRadio">
+                <span class="gRth">
+                    <span></span>
+                    <span>
+                        いらない
+                    </span>
+                    <span>
+                        あまりいらない
+                    </span>
+                    <span>
+                        どちらでもいい
+                    </span>
+                    <span>
+                        ある程度必要
+                    </span>
+                    <span>
+                        必要
+                    </span>
+                </span>
+
+                <form-question>
+                    <span>
+                        常識
+                    </span>
+
+                    <label>
+                        <input type="radio" name="commonSense" value="1" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="commonSense" value="2" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="commonSense" value="3" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="commonSense" value="4" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="commonSense" value="5" required>
+                    </label>
+                </form-question>
+                <form-question>
+                    <span>
+                        敬語
+                    </span>
+
+                    <label>
+                        <input type="radio" name="honorific" value="1" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="honorific" value="2" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="honorific" value="3" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="honorific" value="4" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="honorific" value="5" required>
+                    </label>
+                </form-question>
+                <form-question>
+                    <span>
+                        ユニークさ
+                    </span>
+
+                    <label>
+                        <input type="radio" name="unique" value="1" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="unique" value="2" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="unique" value="3" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="unique" value="4" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="unique" value="5" required>
+                    </label>
+                </form-question>
+                <form-question>
+                    <span>
+                        定期的な投稿
+                    </span>
+
+                    <label>
+                        <input type="radio" name="continuation" value="1" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="continuation" value="2" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="continuation" value="3" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="continuation" value="4" required>
+                    </label>
+                    <label>
+                        <input type="radio" name="continuation" value="5" required>
+                    </label>
+                </form-question>
+            </div>
+
+            <div>
+                <span>
+                    エイプリルフールに企画を行うとしたら、何をしますか？
+                </span>
+                <form-question check="noValue">
+                    <text-list>
+                        <div textList="list"></div>
+                        <div textList="input">
+                            <input type="text" name="aprilFool"><input type="button" value="+">
+                        </div>
+                    </text-list>
+                </form-question>
+            </div>
+
+        </div>
+
+        <form-next sectionTo="$department">
+            <input type="button" value="次に進む">
+        </form-next>
+
+    </span>
+</template>

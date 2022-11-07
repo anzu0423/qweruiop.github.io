@@ -1,0 +1,40 @@
+:root {
+    --nomal-primary: rgb(32, 32, 32);
+    --nomal-primary-rgb: 32, 32, 32;
+
+    --nomal-secondary: rgb(64, 64, 64);
+    --nomal-secondary-rgb: 64, 64, 64;
+
+    --nomal-tertiary: rgb(16, 16, 16);
+    --nomal-tertiary-rgb: 16, 16, 16;
+
+
+    --accent-primary: rgb(50, 180, 120);
+    --accent-primary-rgb: 50, 180, 120;
+
+    --accent-secondary: rgb(45, 180, 194);
+    --accent-secondary-rgb: 45, 180, 194;
+
+    --accent-tertiary: rgb(181, 60, 127);
+    --accent-tertiary-rgb: 181, 60, 127;
+
+
+    --text: rgb(255, 255, 255);
+    --text-rgb: 255, 255, 255;
+
+
+    --link: rgb(64, 126, 241);
+    --link-rgb: 64, 126, 241;
+
+    --link-hover: rgb(64, 126, 241);
+    --link-hover-rgb: 64, 126, 241;
+
+    --link-visited: rgb(64, 126, 241);
+    --link-visited-rgb: 64, 126, 241;
+
+    --link-active: rgb(64, 126, 241);
+    --link-active-rgb: 64, 126, 241;
+
+    --gradation-primary: linear-gradient(45deg, var(--accent-primary), var(--accent-secondary));
+    --gradation-secondary: linear-gradient(43deg, var(--accent-tertiary), var(--link));
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="300"
+   version="1.1"
+   viewBox="0 0 900 300"
+   id="svg19"
+   sodipodi:docname="power - コピー.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview21"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true"
+     inkscape:zoom="3.307643"
+     inkscape:cx="28.570194"
+     inkscape:cy="25.244563"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg19" />
+  <defs
+     id="defs9">
+    <linearGradient
+       id="linearGradient1882">
+      <stop
+         style="stop-color:#800080"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#13aaf4"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1884"
+       x2="10.939"
+       y1="13.611"
+       y2="-0.014765"
+       gradientTransform="matrix(1.425,0,0,1.425,0,0.017134)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient1882" />
+    <linearGradient
+       id="linearGradient2484"
+       x2="2.8943999"
+       y1="3.6013"
+       y2="-0.0039066002"
+       gradientTransform="matrix(5.386,0,0,5.386,0,0.017134)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient1882" />
+  </defs>
+  <g
+     transform="matrix(6.4147,0,0,6.4147,-50.000021,-62.254642)"
+     id="g17">
+    <g
+       id="g12">
+      <path
+         id="svg_powerbutton_01"
+         d="M 5.4274,4.1921 C 2.2878,5.2 0,8.1543 0,11.6179 c 0,4.2882 3.5078,7.796 7.796,7.796 4.2882,0 7.7932,-3.5078 7.7932,-7.796 0,-3.4639 -2.2874,-6.4182 -5.4274,-7.4258 v 3.0783 c 1.5399,0.83384 2.5773,2.4597 2.5773,4.3475 0,2.7479 -2.1953,4.9459 -4.9431,4.9459 -2.7479,0 -4.957,-2.198 -4.957,-4.9459 0,-1.8891 1.0436,-3.517 2.5885,-4.3503 z"
+         style="color:#32b478;fill:url(#linearGradient1884);stroke-width:5.386;stroke-linecap:round;paint-order:markers stroke fill" />
+    </g>
+    <g
+       id="g15">
+      <path
+         id="svg_powerbutton_02"
+         d="m 7.7949,-0.0039049 a 1.2918,1.2918 0 0 0 -1.2939,1.2834 v 9.0782999 a 1.2918,1.2918 0 0 0 1.2939,1.2834 1.2918,1.2918 0 0 0 1.2939,-1.2834 V 1.2794951 a 1.2918,1.2918 0 0 0 -1.2939,-1.2834 z"
+         style="color:#32b478;fill:url(#linearGradient2484);stroke-width:5.386;stroke-linecap:round" />
+    </g>
+  </g>
+</svg>
