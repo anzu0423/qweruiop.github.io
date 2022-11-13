@@ -1,3 +1,0 @@
-<css>
-    gr-: grobal
-    mo-: module
